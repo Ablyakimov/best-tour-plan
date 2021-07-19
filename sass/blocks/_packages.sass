@@ -1,0 +1,156 @@
+.packages
+   overflow: hidden
+   padding: 40px 0 70px 0
+   &-wrapper
+      display: grid 
+      grid-template-columns: 350px 350px 350px
+      grid-template-rows: 500px 500px
+      grid-gap: 30px
+   &__title
+      font-family: Muli
+      font-style: normal
+      font-weight: bold
+      font-size: 36px
+      line-height: 45px
+      text-align: center
+      text-transform: uppercase
+      margin-bottom: 65px
+   &__item
+      display: flex
+      flex-direction: column
+      &:nth-child(1)
+         grid-column-start: 1
+         grid-column-end: 3
+         flex-direction: row
+   &__images               
+      width: 350px
+      height: 250px
+   &-images
+      position: relative
+      &__img         
+         border-radius: 8px 8px 0 0
+         &-main
+            width: 366px
+            height: 500px
+            object-fit: cover
+            border-radius: 0px 4px 4px 0px
+      &__offer           
+         position: absolute
+         padding: 4px 9px
+         left: 0
+         top: 26px
+         z-index: 10
+         background-color: $primary
+         border-radius: 0px 8px 8px 0px
+         color: $light
+         font-family: Muli
+         font-style: normal
+         font-weight: 600
+         font-size: 8px
+         line-height: 10px
+         &-main        
+            position: absolute            
+            padding: 8px 12px 7px 11px
+            left: 0
+            top: 26px
+            z-index: 10
+            background-color: $primary
+            border-radius: 0px 8px 8px 0px
+            color: $light
+            font-family: Muli
+            font-style: normal
+            font-weight: 600
+            font-size: 12px
+            line-height: 15px           
+   &-text         
+      max-width: 350px
+      min-height: 250px
+      padding: 30px 21px 25px 32px
+      color: $light
+      background-color: $dark      
+      border-radius: 0px 0px 8px 8px
+      &__title
+         margin-top: 0
+         margin-bottom: 22px         
+         font-family: Muli
+         font-style: normal
+         font-weight: bold
+         font-size: 18px
+         line-height: 23px
+         &-main
+            margin-top: 0
+            margin-bottom: 27px
+            font-family: Muli
+            font-style: normal
+            font-weight: bold
+            font-size: 18px
+            line-height: 23px
+      &__info
+         font-family: Muli
+         font-style: normal
+         font-weight: normal
+         font-size: 14px
+         line-height: 160.6%
+         margin-bottom: 39px
+      &__booking
+         display: flex 
+         align-items: flex-end 
+         justify-content: space-between
+         margin-top: 24px
+         width: 100%
+         &-main
+            margin-top: 37px
+      &__price         
+         &-high     
+            text-decoration: line-through
+            font-family: Muli
+            font-style: normal
+            font-weight: normal
+            font-size: 14px
+            line-height: 18px
+         &-low
+            font-family: Muli
+            font-style: normal
+            font-weight: bold
+            font-size: 24px
+            line-height: 30px
+      &__button
+         padding: 11px 27px 10px 26px
+         background-color: $primary
+         color: $light
+         font-family: Nunito
+         font-style: normal
+         font-weight: 600
+         font-size: 14px
+         line-height: 19px
+         border-radius: 4px
+         border: none
+         cursor: pointer
+
+   &__text
+      &-main
+         max-width: 364px
+         padding: 40px 21px 30px 43px
+         color: $light
+         background-color: $dark
+         border-radius: 0px 8px 8px 0px;
+   &-list
+      padding: 0
+      margin: 0
+      list-style: none      
+      &__item
+         margin-bottom: 11px
+         font-family: Muli
+         font-style: normal
+         font-weight: normal
+         font-size: 12px
+         line-height: 15px
+      &__img
+         margin-right: 14px
+   &-booking
+      &__price
+         display: flex
+         flex-direction: column
+         align-items: flex-start
+         padding-bottom: 10px
+         
